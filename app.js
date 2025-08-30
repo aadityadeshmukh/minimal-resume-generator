@@ -279,83 +279,149 @@ class ResumeBuilder {
     }
   }
 
+  // loadSampleData() {
+  //   console.log('Loading sample data...');
+  //   const sampleData = {
+  //     basics: {
+  //       name: "Samiksha Mohokar",
+  //       email: "sami.mohokar@gmail.com",
+  //       phone: "8888873205",
+  //       linkedin: "linkedin.com/in/samiksha-mohokar",
+  //       summary: "Seasoned, self-motivated professional with 10 years of experience in IT industry and have hands-on experience on Oracle PL/SQL based software development and Unix.\n\n• Drove customer retention efforts by leading a team of 2-4 members.\n• Demonstrated the ability to handle multiple projects simultaneously and complete them to the highest standard within tight deadlines without compromising quality.\n• Coordinated development & support functions from onshore (UK) for multiple applications with full ownership.\n• Experienced in delivering across the software development life cycle."
+  //     },
+  //     work: [
+  //       {
+  //         position: "Senior Software Engineer",
+  //         name: "Techmahindra PrivateLimited",
+  //         location: "Pune",
+  //         startDate: "May 2016",
+  //         endDate: "Present",
+  //         highlights: [
+  //           "Application support role:",
+  //           "• Worked with Telefonica O2 UK at customer location.",
+  //           "• Introduced service improvements.",
+  //           "• Deploying code changes.",
+  //           "• Solved ad-hoc request from the client involving Hadoop queries.",
+  //           "• Involved in upgrade project of the application database from Cloudera to Hortonworks.",
+  //           "",
+  //           "Application Development role:",
+  //           "• Worked with Digi-Telenor (Malaysia)",
+  //           "• Worked in agile development team delivering enhancements and quality improvements.",
+  //           "• Analyzed new requirement and prepared technical specification documents.",
+  //           "• Performed system testing and communicate test results to the users.",
+  //           "• Hands on Advance PL SQL concepts(Collections ,Performance Tuning , Bulk collect ,Partitions )",
+  //           "• Performed effective code reviews before deployment to live environments.",
+  //           "• Performed extract, transform & load (ETL) activities during database migration.",
+  //           "",
+  //           "• Lead a team of 2-4 people from onshore for key customer deliveries.",
+  //           "• Coached and mentored new and existing team members.",
+  //           "• Presenting weekly team status reports to key stakeholders.",
+  //           "• Used Wedo Mobileum tool for development purposes.",
+  //           "• Jira administrator for the team."
+  //         ]
+  //       },
+  //       {
+  //         position: "Software Engineer",
+  //         name: "Zensar Technologies",
+  //         location: "",
+  //         startDate: "Sep 2011",
+  //         endDate: "May 2016",
+  //         highlights: [
+  //           "• Worked with Mutual & Federal (SA), CISCO (US)",
+  //           "• Captured requirements, analyzed impact, delivered enhancements and quality improvements",
+  //           "• Tested the product and documented new enhancements",
+  //           "• Deployed the code using SVN, GIT and AppDB.",
+  //           "• Generated reports in BI Publisher",
+  //           "• Responsible for helping the company's global internal control assessment process to ensure compliance of Sarbanes-Oxley regulations through continuous improvement in internal control procedures.",
+  //           "• Understanding of financial accounting and audit, as well as the Sarbanes Oxley Act of 2002 and Audit Standard 5.",
+  //           "• Performing above controls by executing PL-SQL code, fetching the data from respective database and analyzing it."
+  //         ]
+  //       }
+  //     ],
+  //     education: [
+  //       {
+  //         institution: "Savitribai Phule Pune University",
+  //         studyType: "Bachelor of Engineering (BEng)",
+  //         area: "Computer Engineering",
+  //         startDate: "2007",
+  //         endDate: "2011"
+  //       }
+  //     ],
+  //     skills: [
+  //       {
+  //         name: "Technical Skills",
+  //         keywords: [
+  //           "SQL", "PL/SQL", "Unix", "Shell Scripting", "Performance Tuning",
+  //           "Team Leadership", "Presentation Skills", "Oracle SQL Developer",
+  //           "Agile Methodologies", "Database Development"
+  //         ]
+  //       }
+  //     ]
+  //   };
+
   loadSampleData() {
     console.log('Loading sample data...');
     const sampleData = {
       basics: {
-        name: "Samiksha Mohokar",
-        email: "sami.mohokar@gmail.com",
-        phone: "8888873205",
-        linkedin: "linkedin.com/in/samiksha-mohokar",
-        summary: "Seasoned, self-motivated professional with 10 years of experience in IT industry and have hands-on experience on Oracle PL/SQL based software development and Unix.\n\n• Drove customer retention efforts by leading a team of 2-4 members.\n• Demonstrated the ability to handle multiple projects simultaneously and complete them to the highest standard within tight deadlines without compromising quality.\n• Coordinated development & support functions from onshore (UK) for multiple applications with full ownership.\n• Experienced in delivering across the software development life cycle."
+        name: "Ash Ketchum",
+        email: "ash.ketchum@palletmail.com",
+        phone: "123-PIKA-4567",
+        linkedin: "linkedin.com/in/ash-ketchum",
+        summary: "\n• Driven, adaptable Pokémon Trainer with extensive field experience across multiple regions.\n• Recognized for innovative strategy, unwavering determination, and ability to cultivate high-performing teams.\n• Achieved World Champion status and led impactful mentorship and research initiatives.\n• Noted for turning underdogs into stars and keeping Team Rocket on their toes.\n• Wants to be the very best—like no one ever was."
       },
       work: [
         {
-          position: "Senior Software Engineer",
-          name: "Techmahindra PrivateLimited",
-          location: "Pune",
-          startDate: "May 2016",
+          position: "World Coronation Series Monarch",
+          name: "Pokémon League & World Coronation Series",
+          location: "Global (Kanto, Johto, Hoenn, Sinnoh, Unova, Kalos, Alola, Galar)",
+          startDate: "April 1997",
           endDate: "Present",
           highlights: [
-            "Application support role:",
-            "• Worked with Telefonica O2 UK at customer location.",
-            "• Introduced service improvements.",
-            "• Deploying code changes.",
-            "• Solved ad-hoc request from the client involving Hadoop queries.",
-            "• Involved in upgrade project of the application database from Cloudera to Hortonworks.",
-            "",
-            "Application Development role:",
-            "• Worked with Digi-Telenor (Malaysia)",
-            "• Worked in agile development team delivering enhancements and quality improvements.",
-            "• Analyzed new requirement and prepared technical specification documents.",
-            "• Performed system testing and communicate test results to the users.",
-            "• Hands on Advance PL SQL concepts(Collections ,Performance Tuning , Bulk collect ,Partitions )",
-            "• Performed effective code reviews before deployment to live environments.",
-            "• Performed extract, transform & load (ETL) activities during database migration.",
-            "",
-            "• Lead a team of 2-4 people from onshore for key customer deliveries.",
-            "• Coached and mentored new and existing team members.",
-            "• Presenting weekly team status reports to key stakeholders.",
-            "• Used Wedo Mobileum tool for development purposes.",
-            "• Jira administrator for the team."
+            "• Defeated Leon in the finals to become World Champion.",
+            "\n• Mentored rising trainers and studied advanced battle mechanics.",
+            "\n• Foiled Team Rocket’s plans more than 127 times (and counting).",
+            "\n• Maintained exceptional win rate with a unique, friendship-centric approach to training.",
+            "\n• Frequently encountered legendary Pokémon in the wild (and still can't catch a shiny)."
           ]
         },
         {
-          position: "Software Engineer",
-          name: "Zensar Technologies",
-          location: "",
-          startDate: "Sep 2011",
-          endDate: "May 2016",
+          position: "Alola League Champion",
+          name: "Manalo Conference",
+          location: "Alola Region",
+          startDate: "2019",
+          endDate: "2019",
           highlights: [
-            "• Worked with Mutual & Federal (SA), CISCO (US)",
-            "• Captured requirements, analyzed impact, delivered enhancements and quality improvements",
-            "• Tested the product and documented new enhancements",
-            "• Deployed the code using SVN, GIT and AppDB.",
-            "• Generated reports in BI Publisher",
-            "• Responsible for helping the company's global internal control assessment process to ensure compliance of Sarbanes-Oxley regulations through continuous improvement in internal control procedures.",
-            "• Understanding of financial accounting and audit, as well as the Sarbanes Oxley Act of 2002 and Audit Standard 5.",
-            "• Performing above controls by executing PL-SQL code, fetching the data from respective database and analyzing it."
+            "• First-ever Champion of Alola League, utilizing versatile tactics.",
+            "• Specialized in Z-Move research, improving trainer synchronization.",
+            "• Research contributor with Professor Kukui on island challenges.",
+            "• Once won a league while still not evolving Pikachu (by choice)."
           ]
         }
       ],
       education: [
         {
-          institution: "Savitribai Phule Pune University",
-          studyType: "Bachelor of Engineering (BEng)",
-          area: "Computer Engineering",
-          startDate: "2007",
-          endDate: "2011"
+          institution: "Professor Oak's Institute",
+          studyType: "Pokémon Training & Communication",
+          area: "Trainer-Partner Relationships",
+          startDate: "1997",
+          endDate: "Present"
         }
       ],
       skills: [
         {
-          name: "Technical Skills",
+          name: "Trainer Skills",
           keywords: [
-            "SQL", "PL/SQL", "Unix", "Shell Scripting", "Performance Tuning",
-            "Team Leadership", "Presentation Skills", "Oracle SQL Developer",
-            "Agile Methodologies", "Database Development"
+            "Battle Strategy", "Team Building", "Leadership", "Crisis Management", 
+            "Pokémon Care", "Pokéball Throwing", "Type Matchup Analysis", "Gym Badge Acquisition"
           ]
         }
+      ],
+      fun_easter_eggs: [
+        "Member of the Squirtle Squad (occasionally rocks sunglasses).",
+        "Responsible for Team Rocket’s ongoing repair bills.",
+        "Still tries to catch every type of Pokémon—except for Beedrill. Just... no.",
+        "Catchphrase: 'I choose you!'—spoken with gusto.",
+        "Can identify Pokémon by silhouette (and occasionally by voice actor)."
       ]
     };
 
