@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LinkedIn-Style Resume Builder</title>
+    <title>Minimal LinkedIn-Style Resume Builder</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -11,12 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="screenslaver" data-description="Support me on Buy me a coffee!" data-message="If you like my work please consider buying me a coffee!" data-color="#BD5FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 </head>
 <body>
     <div class="app-container">
         <!-- Header Controls -->
         <div class="header-controls">
-            <h1>LinkedIn-Style Resume Builder</h1>
+            <h1>Minimal Resume Builder</h1>
             <div class="controls-group">
                 <div class="font-selector-group">
                     <label for="fontSelect">Font:</label>
@@ -29,8 +30,8 @@
                     </select>
                 </div>
                 <div class="action-buttons">
-                    <button id="importBtn" class="btn btn--outline">Import JSON</button>
-                    <button id="exportBtn" class="btn btn--outline">Export JSON</button>
+                    <button id="importBtn" title="Advanced: use this to import json output from any AI app. The generator will populate the data." class="btn btn--outline">Import JSON</button>
+                    <button id="exportBtn" title="Advanced: use this to export json output to any AI app. The AI app can edit the json which can be imported into the generator. " class="btn btn--outline">Export JSON</button>
                     <button id="downloadPdf" class="btn btn--primary">Download PDF</button>
                 </div>
             </div>
